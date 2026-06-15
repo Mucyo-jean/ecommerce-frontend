@@ -2,7 +2,7 @@ import axios, { AxiosError } from 'axios';
 import { useAuthStore } from '../store/authStore';
 import type { AuthTokens } from '../types';
 
-export const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:4000/api/v1';
+export const API_URL = import.meta.env.VITE_API_URL ?? 'https://ecommerce-backend-29jh.onrender.com';
 
 export const api = axios.create({
   baseURL: API_URL,

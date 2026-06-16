@@ -89,11 +89,6 @@ export default function LoginPage() {
         </Link>
       </p>
 
-      <div className="mt-6 rounded-md border border-gray-200 bg-gray-50 p-3 text-xs text-gray-500">
-        <p className="font-medium text-gray-600">Demo accounts</p>
-        <p>Admin: admin@matic.rw / Admin@12345</p>
-        <p>Customer: customer@matic.rw / Customer@123</p>
-      </div>
     </div>
   );
 }
